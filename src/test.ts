@@ -1,4 +1,4 @@
 export function someFn(a: number): string {
-    console.log("someFn 11")
+    console.log("someFn 112")
     return ''
 }
