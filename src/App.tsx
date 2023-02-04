@@ -9,12 +9,14 @@ import ErrorPage from "./pages/Error/ErrorPage";
 import { useTheme } from "./theme/useTheme";
 import { Counter } from "./components/Counter";
 
+import { classNames } from "./helpers/classNames/classNames";
+
 import "./styles/index.scss";
 
 const App = () => {
   const { theme, toggleTheme } = useTheme();
   return (
-    <div className={`app ${theme}`}>
+    <div className={classNames("app", {}, [theme])}>
       <button onClick={toggleTheme}>change Theme</button>
       <div>
         <span className="p">
