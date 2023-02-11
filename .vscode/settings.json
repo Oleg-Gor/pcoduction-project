@@ -2,7 +2,12 @@
     "eslint.format.enable": true,
     "eslint.lintTask.enable": true,
     "eslint.run": "onSave",
-    "eslint.workingDirectories": [
-    
-    ]
+    "eslint.workingDirectories": [],
+    "stylelint.enable": true,
+    "css.validate": true,
+    "scss.validate": true,
+    "stylelint.validate": [
+        "css",
+        "scss"
+    ],
 }
