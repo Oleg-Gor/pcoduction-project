@@ -1,40 +1,39 @@
 .Sidebar {
-  height: calc(100vh - var(--navbar-height));
-  width: var(--sidebar-width);
-  background: var(--inverted-bg-color);
-  position: relative;
-
-  transition: width 0.4s;
+    height: calc(100vh - var(--navbar-height));
+    width: var(--sidebar-width);
+    background: var(--inverted-bg-color);
+    position: relative;
+    transition: width 0.4s;
 }
 
 .collapsed {
-  width: var(--sidebar-width-collapsed);
+    width: var(--sidebar-width-collapsed);
 }
 
 .toggle {
-  cursor: pointer;
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  position: absolute;
-  right: -20px;
-  top: 40px;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: -20px;
+    top: 40px;
 }
 
 .switchers {
-  position: absolute;
-  margin: auto;
-  bottom: 10px;
-  display: flex;
-  justify-content: center;
-  width: 100%;
+    position: absolute;
+    margin: auto;
+    bottom: 10px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 .lang {
-  margin-left: 20px;
-  background: var(--bg-color);
-  color: var(--primary-color);
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
+    margin-left: 20px;
+    background: var(--bg-color);
+    color: var(--primary-color);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
 }
