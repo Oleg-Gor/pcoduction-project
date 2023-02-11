@@ -4,6 +4,7 @@ export function classNames(cls: string, mods: Mods = {}, additional: string[] = 
     return [
         cls,
         ...additional.filter(Boolean),
-        ...Object.entries(mods).reduce((acc, [className, value]) => value ? [...acc, className] : acc, [])
-    ].join(' ')
+        ...Object.entries(mods)
+            .reduce((acc, [className, value]) => (value ? [...acc, className] : acc), []),
+    ].join(' ');
 }
