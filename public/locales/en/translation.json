@@ -3,5 +3,7 @@
   "Перевод": "Translate",
   "Язык": "En",
   "Main":"Main",
-  "About":"About"
+  "About":"About",
+  "Something went wrong":"Something went wrong!",
+  "Update page":"Update page"
 }
