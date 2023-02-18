@@ -1,7 +1,7 @@
 name: linting, testing, building
 on:
   push:
-    branches: [ 27 ]
+    branches: [ 28 ]
   pull_request:
     branches: [ main ]
 jobs:
@@ -23,11 +23,16 @@ jobs:
         run: npm run build:prod
       - name: linting typescript
         run: npm run lint:ts
+        if: always()
       - name: linting css
         run: npm run lint:scss
+        if: always()
       - name: unit testing
         run: npm run test:unit
+        if: always()
       - name: build storybook
         run: npm run storybook:build
+        if: always()
       - name: screenshot testing
         run: npm run test:ui:ci
+        if: always()
