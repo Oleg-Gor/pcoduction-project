@@ -1,7 +1,8 @@
 {
   "Тестовый пример": "Test example",
   "Перевод": "Translate",
-  "Язык": "En",
+  "Язык": "Language",
+  "Короткий язык": "En",
   "Main":"Main",
   "About":"About",
   "Something went wrong":"Something went wrong!",
